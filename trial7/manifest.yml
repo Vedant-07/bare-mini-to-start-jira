@@ -1,0 +1,15 @@
+modules:
+  jira:globalPage:
+    - key: trial7-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: trial7
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/vite1/dist
+app:
+  id: ari:cloud:ecosystem::app/26940324-f4c7-4c3b-917b-02a37cd50f4a
