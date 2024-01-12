@@ -2,12 +2,7 @@ modules:
   jira:globalPage:
     - key: trial7-hello-world-page
       resource: main
-      resolver:
-        function: resolver
-      title: trial7
-  function:
-    - key: resolver
-      handler: index.handler
+      title: trial7-now it struck
 resources:
   - key: main
     path: static/vite1/dist

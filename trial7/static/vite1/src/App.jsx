@@ -1,15 +1,9 @@
-/* import react from "react";
-
-function App() {
-  return <div>Hello World Ved</div>;
-}
-
-export default App; */
-
 import React from "react";
-
 const App = () => {
-  return <div>App here to disaply</div>;
+  return (
+    <>
+  <div>App here to disaply ,finally ,a new adv. begins ,made some changes again !!!</div>
+  <div>some words here again!!!!</div>
+   </>);
 };
-
 export default App;
